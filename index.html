@@ -6,11 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>99 Lines of Code-Part 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>My Singing Friends</h1>
 
+    <!--nav bar with page title and two buttons that float right (that currently do not go anywhere)-->
+    <nav>
+        <div>Flexbox and Friends
+            <!--<a class="btn btn-outline-dark btn-sm float-right" href="google.com" role="button">Sign Up</a>
+                    <a class="btn btn-outline-dark btn-sm float-right" href="google.com" role="button">Login</a>
+                    -->
+            <div class="btn-group" role="group" aria-label="buttons">
+                <button type="button" class="btn btn-dark btn-sm">Login</button>
+                <button type="button" class="btn btn-dark btn-sm">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!--larger flexbox container that expands across width of page with centered H1 tag and content.-->
+    <div class="flexbox">
+        <div class="one">
+            <h1 align="center">My Singing Friends</h1>
+            Assignment to console log each friend below "singing"
+            <i>99 lines of code in a file</i> while incorporating pieces from a self-created Flexbox lab.
+        </div>
+    </div>
+
+    <!--main flex box that will hold 5 within.-->
+    <div class="boxes">
+        <div class="two">
+
+            <h3>
+                <b>My Friend:</b>
+            </h3>
+
+            <p>Erica</p>
+
+            Here is one of my singing friends. Look to the right to see her sing 99 lines of code in a file all the way to 1 line of
+            code in a file. To learn about this friend, Read More below!
+
+            <br>
+            <br>
+            <a class="btn btn-outline-dark btn-sm" href="https://www.linkedin.com/in/erica-beal-bb305838/" role="button">READ ME</a>
+
+
+        </div>
+
+        <div class="two">
+            <h3>
+                <b>My Friend:</b>
+            </h3>
+
+            <p>David</p>
+
+            Here is one of my singing friends. Look to the right to see him sing 99 lines of code in a file all the way to 1 line of
+            code in a file. To learn about this friend, Read More below!
+            <br>
+            <br>
+            <a class="btn btn-outline-dark btn-sm" href="https://www.linkedin.com/in/david-goodnuff-8b085176/" role="button">READ ME</a>
+        </div>
+
+        <div class="two">
+            <h3>
+                <b>My Friend:</b>
+            </h3>
+
+            <p>Meredith</p>
+
+            Here is one of my singing friends. Look to the right to see her sing 99 lines of code in a file all the way to 1 line of
+            code in a file. To learn about this friend, Read More below!
+            <br>
+            <br>
+            <a class="btn btn-outline-dark btn-sm" href="http://www.friscoobgyn.com/meredith_mcintire.htm" role="button">READ ME</a>
+        </div>
+
+        <div class="two">
+            <h3>
+                <b>My Friend:</b>
+            </h3>
+
+            <p>Hernan</p>
+
+            Here is one of my singing friends. Look to the right to see him sing 99 lines of code in a file all the way to 1 line of
+            code in a file. To learn about this friend, Read More below!
+            <br>
+            <br>
+            <a class="btn btn-outline-dark btn-sm" href="https://www.linkedin.com/in/hernan-suarez-flamerich-2b567664/" role="button">READ ME</a>
+        </div>
+
+        <div class="two">
+            <h3>
+                <b>My Friend:</b>
+            </h3>
+
+            <p>Ashley</p>
+
+            Here is one of my singing friends. Look to the right to see her sing 99 lines of code in a file all the way to 1 line of
+            code in a file. To learn about this friend, click the Read Me button below!
+            <br>
+            <br>
+            <a class="btn btn-outline-dark btn-sm" href="https://www.linkedin.com/in/ashley-hickman-zink-0433401a/" role="button">READ ME</a>
+        </div>
+
+    </div>
 
 
     <script src="app.js"></script>

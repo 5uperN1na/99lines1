@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    height: 3em;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: red;
+    font-family: calibri;
+    padding: 10px;
+}
+
+.btn-group{
+    float: right;
+    font: 10px calibri;  
+}
+
+h1{
+    color: red;
+}
+
+.flexbox{
+    font-family: calibri;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    height: 8em;
+    color: black;
+    background-color: grey;
+ }
+
+ .boxes{
+     display: flex;
+     padding: 1em;
+     height: 50em;
+ 
+       
+ }
+
+ .boxes div{
+     font: 15px calibri;
+     text-align: justify;
+     text-justify: inter-word;
+     padding: 20px;  
+ }
+
+ h3{
+    font: calibri;
+    text-transform: uppercase;
+ }
+
+ p{
+     font: 20px calibri;
+ }
+
+
+
